@@ -3,15 +3,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
       font-family: "Quicksand", sans-serif;
           
-
-}
-html {
-  scroll-behavior: smooth;
-      
 
 }
 ul {
@@ -40,6 +36,7 @@ html, body {
   position: relative;
    margin: 0;
    padding: 0;
+    z-index:99999;
 }
 .navbar::before{
     content:"";
